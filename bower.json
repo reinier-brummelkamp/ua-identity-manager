@@ -1,0 +1,31 @@
+{
+  "name": "ua-identity-manager",
+  "version": "1.0.0",
+  "authors": [
+    "Reinier Brummelkamp <reinier@urbanautomation.co.za>"
+  ],
+  "description": "Identity manager component for the Solitude framework",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "ua-identity-manager"
+  ],
+  "main": "IdentityManager.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/reinier-brummelkamp/ua-identity-manager/",
+  "ignore": [
+    "/.gitattributes",
+    "/.gitignore",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "page.js": "^1.7.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
